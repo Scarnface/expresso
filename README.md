@@ -94,7 +94,6 @@ In order for the tests and provided front-end to run properly, you will need to 
   - If an employee with the supplied employee ID doesn't exist, returns a 404 response
 - POST
   - Creates a new timesheet, related to the employee with the supplied employee ID, with the information from the `timesheet` property of the request body and saves it to the database. Returns a 201 response with the newly-created timesheet on the `timesheet` property of the response body
-  - If any required fields are missing, returns a 400 response
   - If an employee with the supplied employee ID doesn't exist, returns a 404 response
 
 **/api/employees/:employeeId/timesheets/:timesheetId**
